@@ -52,17 +52,6 @@ const generateProjects = projectsArr => {
       </section>
     `;
   };
-  
-    return `
-      <section class="my-3" id="portfolio">
-        <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
-        <div class="flex-row justify-space-between">
-        ${featuredProjectHtmlArr.join('')}
-        ${nonFeaturedProjectHtmlArr.join('')}
-        </div>
-      </section>
-    `;
-  };
 
 module.exports = templateData => {
     // destructure page data by section
